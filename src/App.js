@@ -66,7 +66,7 @@ export default function Game() {
   const [currentMove, setCurrentMove] = useState(0);
   const xIsNext = currentMove % 2 === 0;
   const currentSquares = history[currentMove];
-  const [randomPattern, setRandomPattern] = useState("oxo,xxx,oxo");
+  const [randomPattern, setRandomPattern] = useState("OXO,XXX,OXO");
   
   
 
